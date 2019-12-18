@@ -1,0 +1,185 @@
+% !TeX program = xelatex
+% Run with XeLaTeX
+
+\documentclass[
+    changecolor={255,255,255}, 
+    titlecolor=black,
+    colorharmony={wheel,1,3}, 
+]{cv-roald}
+
+\makeatletter
+   \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+
+% Available options for cv-roald documentclass: 
+% 
+% - changecolor = {R, G, B} (default: {169, 53, 40} = sharelatex lion red)
+%   Changes the color of the header bar and the titles. 
+%   It expects a RGB color code where RGB go from 0-255.
+%
+% - colorharmony = {wheel,i,j} (defualt: {wheel,1,3})
+%   Choose the color harmony model you want to use.
+%     wheel = wheel or twheel
+%     i		= number < j
+%	  j		= for j-color harmony 
+%	    	  j=3 -> three color harmony or color triad
+% 	See page 37 of the xcolor manual for more information on commands: 
+% 	http://texdoc.net/texmf-dist/doc/latex/xcolor/xcolor.pdf  
+% 	Or check http://paletton.com to see how color harmonies work.
+%
+% - titlecolor = {colorname} (default: main)
+%	Change the colors of the titles. You can try: second, black!50, 
+%	green!40!yellow, etc.     	
+%
+%  The colors defined through changecolor and colorharmony are called 
+%  *main* and *second* and can be used in the main document.	
+
+%Optionals
+
+\begin{document}
+\pagestyle{empty} %to remove the page numbers
+
+% This is the header on the first page. It contains your name and contact
+% details. 
+% \sep inserts a | between items. 
+% You can use FontAwesome icons and use \FAspace after a font awesome icon to
+% insert a predefined horizontal space after a font awesome icon icon.
+\header{Avik}{Sarkar}{%
+  \faMapMarker \FAspace{ 11/8/C Free School Street }\sep Kawranbazar, Dhaka \sep Bangladesh}{%
+  \faMobile \FAspace +88 0178 333 2998 \sep% 
+  \faEnvelope \FAspace \space ssavi.ict@gmail.com \sep% 
+  \faLinkedinSquare /in/ssavi-ict \sep%
+  \faGithub /ssavi-ict %
+  \newline \newline
+  }
+\vhrulefill{0.9pt}
+
+% Add a picture to the top right of the page. Comment or delete if you do not 
+% want a picture
+%\photo{sharelatex}
+
+\textit{To lead a challenging career and be a part of progressive organization where I can enhance my skill and knowledge along with the company's goals and objectives.}
+
+\section*{Work Experience\vhrulefill{0.9pt}}
+\begin{tabularcv}
+September, 2018 - Present     &   \worktitle{ Software Quality Assurance Engineer}\newline {Developer Experienced Group} \newline{Samsung Research and Development Institute Bangladesh, Dhaka}
+                 
+\end{tabularcv}
+
+\section*{Education\vhrulefill{0.9pt}}
+% Use tabularcv environment to make a two column environment. The left column 
+% is for the dates, the right one is for details of your education for example. 
+% You can use the command \worktitle{Study name/Job title}{Location}.
+\begin{tabularcv}
+2013 - Present     &   \worktitle{ B.S\MakeLowercase{C.} Engineering \MakeLowercase{in} ICT}{Comilla University, Comilla}
+                \newline CGPA - 3.73 
+\end{tabularcv}
+
+\section*{Relevant Skills\vhrulefill{0.9pt}}
+\begin{tabularcv}
+Languages   &  \worktitle{C/C++}{(Intermediate to Advance)},\		               \worktitle{Java}{(Basic)},\		               \worktitle{Python}{(Basic)},\		               \worktitle{PHP}{(Basic)}
+			   \\
+Databases   &  \worktitle{SQL}
+
+			   \\
+Version Control System   &  \worktitle{GitHub}
+
+               \\
+Project Management Tool   &  \worktitle{JIRA}
+			   
+\end{tabularcv}   
+
+\section*{Programming Competitions\vhrulefill{0.9pt}}
+% Use \link{URL} to place an link. It inserts a fontawsome logo, where the color is determined from the color harmony settings.
+
+\setcounter{secnumdepth}{0}
+\cvsubsection{Onsite Programming Contest}
+\begin{cvhonors}	
+\cvhonor
+    {Placed \textbf{$10^{th}$}}
+    {AUB Inter University Programming Contest, \space\space \textit{Dhaka} }
+    {}
+    {2018}
+\cvhonor
+    {Placed \textbf{$3^{rd}$}}
+    {CoU CSE Fiesta 2018 Inter University Programming Contest, \space\space \textit{Comilla}}
+    {}
+    {2018}
+\cvhonor
+    {Placed \textbf{$6^{th}$}}
+    {EDU Engineering Day 2018 IUPC, \space\space \textit{Chittagong}}
+    {}
+    {2018}
+\cvhonor
+    {Placed \textbf{$19^{th}$}}
+    {CUET National Collegiate Programming Contest,\space\space  \textit{Chittagong}}
+    {}
+    {2017}
+\cvhonor
+    {Placed \textbf{$2^{nd}$}}
+    { USTC TechTronics'16 Inter University Programming
+Contest, \space\space \textit{Chittagong}}
+    {}
+    {2017}
+\cvhonor
+    {Placed \textbf{$21^{st}$}}
+    {SUST Inter University Programming Contest 2017, \space\space \textit{Sylhet}}
+    {}
+    {2017}
+
+
+\end{cvhonors}
+
+\cvsubsection{Online Programming Contest}
+  \begin{compactitem}
+    \item { \descriptionstyle{Codeforces : ssavi  (max. specialist, 1492), (Solved 713 Problems) }}\vspace{0mm}
+    \item { \descriptionstyle{HackerRank : ssavi  (max. 2001), (Solved 105 Problems)  }}
+    \item { \descriptionstyle{Codechef : ssavi  (max. 1935), (Solved 120 Problems) }}
+    \item { \descriptionstyle{UVa : ssavi  (Solved 520 problems)}}
+    \item { \descriptionstyle{LightOJ : 16466  (Solved 153 problems)}}
+    \item { \descriptionstyle{SPOJ: ssavi (Solved 52 problems) }}
+    \item { \descriptionstyle{HackerEarth: avik12 (Solved 56 problems) }}
+  \end{compactitem}
+
+\section*{Academic Projects\vhrulefill{0.9pt}}
+	\begin{compactitem}
+    \projectitem{Bengali Text Summarize}{Details: A tool that takes a bangla text as an input via url and produce summary.\\Tools: Python.}
+    \projectitem{Online Admission System}{Details: An online based enrollment platform designed for university admission system.\\Tools: HTML, CSS, PHP, JavaScript, MySQL.}
+   \end{compactitem}
+
+\section*{Publications\vhrulefill{0.9pt}}
+
+\begin{cvpublications}
+2018     &    Avik Sarkar, Md. Sharif Hossen.\worktitle{Automatic Bangla Text Summarization Using Term Frequency and Semantic Similarity Approach},{$21^{st}$ ICCIT } 
+\end{cvpublications}
+
+\section*{Notable Experiences\vhrulefill{0.9pt}}
+\begin{compactitem}
+    \item { \descriptionstyle{Problem setting in several online and onsite contests.}}
+    \item { \descriptionstyle{Arranged several contests in University.}}
+    \item { \descriptionstyle{Performed as a mentor of junior contestants of University.}}
+  \end{compactitem}
+
+
+%\section*{References\vhrulefill{0.9pt}}
+%\cvdoublecolumn{
+%    \cvreference{Md. Imran Hossain}
+%    {Assistant Professor, Dept. of ICT}
+%    {Comilla University, Comilla}
+%    {Mobile: 01773-622822}
+%    {}
+%    {imran@cou.ac.bd}
+%    {}%
+%    }
+%    {
+%    \cvreference{Md. Sharif Hossen}
+%    {Lecturer, Dept. of ICT}
+%    {Comilla University, Comilla}
+%    {Mobile: 01780544586}
+%    {}
+%    {mshossen@cou.ac.bd}
+%    {}%
+%    }
+    
+\end{document}
+
