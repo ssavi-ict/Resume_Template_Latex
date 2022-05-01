@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7440 64-bit) (preloaded format=xelatex 2020.6.25)  10 NOV 2020 22:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7440 64-bit) (preloaded format=xelatex 2020.6.25)  2 MAY 2022 00:54
 entering extended mode
 **./resume-avik.tex
 (resume-avik.tex
@@ -1029,26 +1029,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 65.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 86--90
+Overfull \hbox (6.0pt too wide) in paragraph at lines 91--95
 [] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 93--102
+Overfull \hbox (6.0pt too wide) in paragraph at lines 98--110
 [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 113.
+t line 121.
 
-Overfull \hbox (28.45271pt too wide) in alignment at lines 107--131
+Overfull \hbox (28.45271pt too wide) in alignment at lines 115--139
 [] [] [] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 151--154
+Overfull \hbox (6.0pt too wide) in paragraph at lines 159--162
 [] 
  []
 
@@ -1060,18 +1060,18 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (resume-avik.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `resume-avik.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  24977 strings out of 414083
  485584 string characters out of 2894404
- 1142625 words of memory out of 3000000
+ 1143624 words of memory out of 3000000
  42226 multiletter control sequences out of 15000+200000
  533074 words of font info for 72 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
